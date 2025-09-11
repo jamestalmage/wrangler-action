@@ -113,6 +113,7 @@ function handleVersionsUploadOutputEntry(
 ) {
 	setOutput("deployment-url", versionsOutputEntry.preview_url);
 	setOutput("deployment-alias-url", versionsOutputEntry.preview_alias_url);
+	setOutput('version-id', versionsOutputEntry.version_id);
 }
 
 /**
